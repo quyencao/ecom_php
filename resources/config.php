@@ -16,7 +16,7 @@
 
     defined("DB_USER") ? null : define("DB_USER", "root");
 
-    defined("DB_PASS") ? null : define("DB_PASS", "Quyen9x1995");
+    defined("DB_PASS") ? null : define("DB_PASS", "secretpassword");
 
     defined("DB_NAME") ? null : define("DB_NAME", "ecom_db");
 
