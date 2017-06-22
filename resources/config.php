@@ -3,7 +3,9 @@
     // if not define it
     defined("DS") ? null : define("DS", DIRECTORY_SEPARATOR);
 
-    echo __DIR__;
-    echo "<br/>";
-    echo DS;
+    defined("TEMPLATE_FRONT") ? null : define("TEMPLATE_FRONT", __DIR__ . DS . "templates" . DS . "front");
+
+    defined("TEMPLATE_BACK") ? null : define("TEMPLATE_BACK", __DIR__ . DS . "templates" . DS . "back");
+
+    echo TEMPLATE_FRONT;
 ?>
